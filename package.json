@@ -1,0 +1,24 @@
+{
+  "name": "librarymanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevaramRoshan/LibraryManagementSystem.git"
+  },
+  "author": "Devaram Roshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevaramRoshan/LibraryManagementSystem/issues"
+  },
+  "homepage": "https://github.com/DevaramRoshan/LibraryManagementSystem#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
