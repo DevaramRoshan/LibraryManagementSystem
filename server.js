@@ -2,7 +2,7 @@ const express=require("express");
 
 //importing routes files 
 const usersroute=require("./routes/users");
-// const booksroute=require("./routes/books");
+const booksroute=require("./routes/books");
 
 const port= 8081;
 
@@ -17,7 +17,7 @@ app.get("/",(req,res)=>{
 })
 
 app.use("/users",usersroute);
-// app.use("/books",booksroute);
+app.use("/books",booksroute);
 
 
 app.all("*",(req,res)=>{
